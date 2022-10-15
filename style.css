@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.mainimg{
+    width: 98%;
+    margin: 1%;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Staatliches';
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.quienes-somos{
+    background-color: #97F3FA;
+    border-radius: 10px;
+    padding-top: 10px;
+    color: #008fa5;
+    font-family: 'Anton', sans-serif;
+}
+
+.quienes-somos p{
+    font-size: 23px;
+    color: #252525;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.content-2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 2px;
+    margin-right: 2px;
+}
+
+.divider{
+    margin-left: 8px;
+    height: 4px;
+    width: 92%;
+    background-color: #00B7D5;
+    border-radius: 5px;
+}
+
+.manejo{
+    color: #008fa5;
+}
+
+
+.q-a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: RGB(73,226,238,0.4);
+    font-family: 'Anton', sans-serif;
+    padding-top: 5px;
+}
+
+.q-a p{
+    margin-bottom: 8px;
+    color: #252525;
+}
+
+.que-zonas{
+    color: #017DAB;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.zonas{
+    display: flex;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 900;
+}
+
+h4{
+    padding: 10px;
+    background-color: RGB(73,226,238,0.4);
+    border-radius: 10px;
+}
+
+h5{
+    font-size: 22px;
+}
+
+.payments{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: RGB(73,226,238,0.6);
+}
+
+.payments h5{
+    margin-top: 1vh;
+}
+
+footer{
+    background-color: #017DAB;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    margin-left: 1px;
+}
+
+.ig-logo{
+    font-size: 300%;
+    margin-right: 80px;
+    margin-top: 2px;
+    color: #00B7D5;
+}
+
+@media (min-width: 990px) {
+    .main-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainimg{
+        margin: 0;
+        width: 80%;
+        height: 65vh;
+    }
+
+    .quienes-somos{
+        background-color: #97F3FA;
+        border-radius: 15px;
+        color: #008fa5;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .quienes-somos p{
+        font-size: 50px;
+        color: #252525;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    .content-2{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1400px) {
+
+}
